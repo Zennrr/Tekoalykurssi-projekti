@@ -1,7 +1,7 @@
 import time
 from openai import OpenAI
 
-ASSISTANT_ID = "asst_GmFrg9ffMtMxMBd9xoDhN845"
+ASSISTANT_ID = ""
 client = OpenAI()
 
 thread = client.beta.threads.create(
